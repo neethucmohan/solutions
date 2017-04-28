@@ -1,3 +1,4 @@
+# Problem 6
 def reverse(list):
  l=len(list)
  s=l
