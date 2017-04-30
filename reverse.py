@@ -1,4 +1,5 @@
 # Problem 6
+
 def reverse(list):
  l=len(list)
  s=l
@@ -8,3 +9,5 @@ def reverse(list):
   newlist[s]=i
  return newlist
 
+print reverse([1,2,3,4])
+print reverse(reverse([1,2,3,4]))
