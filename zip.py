@@ -5,9 +5,11 @@ def zip(a,b):
  i=0
  nlist=[None]*lb
  list=[(x,y) for x in a for y in b]
+ k=0
  while i<lb:
-  nlist[i]=list[i]
+  nlist[i]=list[k]
   i=i+1
+  k=k+lb+1
  return nlist
 
 print zip([1,2,3],["a","b","c"])

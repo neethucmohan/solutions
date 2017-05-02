@@ -5,7 +5,7 @@ def group(list,size):
  while len(list)>size:
   s=list[:size]
   nlist.append(s)
-  list=list[:size]
+  list=list[size:]
  nlist.append(list)
  return nlist
 
